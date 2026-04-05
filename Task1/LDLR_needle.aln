@@ -1,0 +1,489 @@
+########################################
+# Program: needle
+# Rundate: Sun  5 Apr 2026 04:45:56
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20260405-044552-0069-96331014-p1m.asequence
+#    -bsequence emboss_needle-I20260405-044552-0069-96331014-p1m.bsequence
+#    -datafile EDNAFULL
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NM_000527.5
+# 2: NM_010700.3
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 5599
+# Identity:    3344/5599 (59.7%)
+# Similarity:  3344/5599 (59.7%)
+# Gaps:        1476/5599 (26.4%)
+# Score: 10897.0
+# 
+#
+#=======================================
+
+NM_000527.5        1 --------------------------------------------------      0
+                                                                       
+NM_010700.3        1 GCAGACTCCTCCCCCGCCTGGAAACCTCGCCCCTAGTACTGGGAATGACT     50
+
+NM_000527.5        1 --------------------------------------------------      0
+                                                                       
+NM_010700.3       51 CTGGGCGTGCGGCGTAGTTTGCAGCCGGGACACCGTGAGGCTTGCGAGCC    100
+
+NM_000527.5        1 ---------------------GTG----CAATCGCGGGAAGCCAGGGTTT     25
+                                          |||    |   ||||   |.||||.||||
+NM_010700.3      101 CAGATTCGCAGCCGAGACACCGTGGGGCC---CGCG---ATCCAGTGTTT    144
+
+NM_000527.5       26 CCAGCTAGGACA---CAGCAGGTC-GTGATCCGGGTCGGGACACTGCCTG     71
+                     .||||..|.|||   |.|  |||| ||||||||.||..||||   ||...
+NM_010700.3      145 GCAGCGGGAACATTTCGG--GGTCTGTGATCCGAGTGAGGAC---GCAAC    189
+
+NM_000527.5       72 GCAGAGGCTGCGAGCATGGGGCCCTGGGG--CTGGAAATTG---CGCTGG    116
+                     |||||.|||  .||.|| |.||.|.|.||  |||    .||   ||||||
+NM_010700.3      190 GCAGAAGCT--AAGGAT-GAGCACCGCGGATCTG----ATGCGTCGCTGG    232
+
+NM_000527.5      117 ACCGTCGCCTTGCTCCTCGCCGCGGCGGGGACTGCAGTGGGCGACAGATG    166
+                     ..|.|||||.|||||||.||.||.||.||...|||||..|..|||..|||
+NM_010700.3      233 GTCATCGCCCTGCTCCTGGCTGCTGCCGGAGTTGCAGCAGAAGACTCATG    282
+
+NM_000527.5      167 CGAAAGAAACGAGTTCCAGTGCCAAGACGGGAAATGCATCTCCTA-CAAG    215
+                     |...||.||||||||||||||...||||||.||||||||| .||| ||||
+NM_010700.3      283 CAGCAGGAACGAGTTCCAGTGTAGAGACGGAAAATGCATC-GCTAGCAAG    331
+
+NM_000527.5      216 TGGGTCTGCGATGGCAGCGCTGAGTGCCAGGATGGCTCTGATGAGTCCCA    265
+                     |||||.||||||||||||.|.|||||||.|||||||||.||||||||||.
+NM_010700.3      332 TGGGTGTGCGATGGCAGCCCCGAGTGCCCGGATGGCTCCGATGAGTCCCC    381
+
+NM_000527.5      266 GGAGACGTGCTTGTCTGTCACCTG-----CAAATCCGGGGACTTCAGCTG    310
+                     .|||||.|||.|||||||||||||     |.||||     |.||||||||
+NM_010700.3      382 AGAGACATGCATGTCTGTCACCTGTCAGTCCAATC-----AATTCAGCTG    426
+
+NM_000527.5      311 TGGGGGCCGTGTCAACCGCTGCATTCCTCAGTTCTGGAGGTGCGATGGCC    360
+                     |||.||||||||||.|||.|||||||||.|.|.||||||.||.|||||.|
+NM_010700.3      427 TGGAGGCCGTGTCAGCCGATGCATTCCTGACTCCTGGAGATGTGATGGAC    476
+
+NM_000527.5      361 AAGTGGACTGCGACAACGGCTCAGACGAGCAAGGCTGTCCCCCCAAGACG    410
+                     |.||.|||||.||.||.|.|||||||||.|||||||||||||||||||||
+NM_010700.3      477 AGGTAGACTGTGAAAATGACTCAGACGAACAAGGCTGTCCCCCCAAGACG    526
+
+NM_000527.5      411 TGCTCCCAGGACGAGTTTCGCTGCCACGATGGGAAGTGCATCTCTCGGCA    460
+                     |||||||||||.||.||.||.|||||.|||||.|||||||||||.|.|||
+NM_010700.3      527 TGCTCCCAGGATGACTTCCGATGCCAGGATGGCAAGTGCATCTCCCCGCA    576
+
+NM_000527.5      461 GTTCGTCTGTGACTCAGACCGGGACTGCTTGGACGGCTCAGACGAGGCCT    510
+                     |||.||.|||||...||||||.||.|||.|.||.|||||.||.||||||.
+NM_010700.3      577 GTTTGTGTGTGATGGAGACCGAGATTGCCTAGATGGCTCTGATGAGGCCC    626
+
+NM_000527.5      511 CCTGCCCGGTGCTCACCTGTGGTCCCGCCAGCTTCCAGTGCAACAGCTCC    560
+                     .|||||.||....|||.|||||.||||||..|||||..||||||...|||
+NM_010700.3      627 ACTGCCAGGCCACCACTTGTGGCCCCGCCCACTTCCGCTGCAACTCATCC    676
+
+NM_000527.5      561 ACCTGCATCCCCCAG-CTGTGGGCCTGCGACAACGACCCCGACTGCGAAG    609
+                     |..||||| |||||| ||.||||||||||||...||...||||||.|..|
+NM_010700.3      677 ATATGCAT-CCCCAGTCTTTGGGCCTGCGACGGGGATGTCGACTGTGTTG    725
+
+NM_000527.5      610 ATGGCTCGGATGAGTGGCCGCAGCGCTG-TAGGG----GTCTTTACGTGT    654
+                     |.|||||.|||||||||||.|||..||| .||||    |.|   |||...
+NM_010700.3      726 ACGGCTCCGATGAGTGGCCACAGAACTGCCAGGGCCGAGAC---ACGGCC    772
+
+NM_000527.5      655 TCC-AAGGGGACAGTAGCCCCTGCTCGGCCTTCGAGTTCCACTGCCTAAG    703
+                     ||| ||||.|..||.|||||||||||..||.|.|||||||||||....||
+NM_010700.3      773 TCCAAAGGCGTTAGCAGCCCCTGCTCCTCCCTGGAGTTCCACTGTGGTAG    822
+
+NM_000527.5      704 TGGCGAGTGCATCCACTC-CAGCTGGCGCTGTGATGGTGGCCCCGACTGC    752
+                     ..|.|||||.||||| || |||||||..||||||.||.|...|.||||||
+NM_010700.3      823 CAGTGAGTGTATCCA-TCGCAGCTGGGTCTGTGACGGCGAGGCAGACTGC    871
+
+NM_000527.5      753 AAGGACAAATCTGACGAGGAAAACTGCGCTGTGGCCACCTGTCGCCCTGA    802
+                     ||||||||.||.||.|||||..|||||||.|||||||||||.||.|||||
+NM_010700.3      872 AAGGACAAGTCAGATGAGGAGCACTGCGCGGTGGCCACCTGCCGACCTGA    921
+
+NM_000527.5      803 CGAATTCCAGTGCTCTGATGGAAACTGCATCCATGGCAGCCGGCAGTGTG    852
+                     .|||||||||||..|.|||||...||||||.||.||.|||||.|||||||
+NM_010700.3      922 TGAATTCCAGTGTGCAGATGGCTCCTGCATTCACGGTAGCCGCCAGTGTG    971
+
+NM_000527.5      853 ACCGGGAATATGACTGCAAGGACATGAGCGATGAAGTTGGCTGCGTTAAT    902
+                     ||||.|||.||||||||||||||||||||||.||..|.||||||||.|||
+NM_010700.3      972 ACCGTGAACATGACTGCAAGGACATGAGCGACGAGCTCGGCTGCGTCAAT   1021
+
+NM_000527.5      903 GTGACACTCTGCGAGGGACCCAACAAGTTCAAGTGTCACAGCGGCGAATG    952
+                     |||||||..||.||.||.|||||||||||||||||||||||.||.||.||
+NM_010700.3     1022 GTGACACAGTGTGATGGCCCCAACAAGTTCAAGTGTCACAGTGGGGAGTG   1071
+
+NM_000527.5      953 CATCACCCTGGACAAAGTCTGCAACATGGCTAGAGACTGCCGGGACTGGT   1002
+                     |||||.|.|||||||.||.|||.||...||..|.|||||||.||||||||
+NM_010700.3     1072 CATCAGCTTGGACAAGGTGTGCGACTCCGCCCGCGACTGCCAGGACTGGT   1121
+
+NM_000527.5     1003 CAGATGAACCCATCAAAGAGTGCGGGACCAACGAATGCTTGGACAACAAC   1052
+                     |.|||||.||||||||.||||||..|||||||||.||.|||||||||||.
+NM_010700.3     1122 CGGATGAGCCCATCAAGGAGTGCAAGACCAACGAGTGTTTGGACAACAAT   1171
+
+NM_000527.5     1053 GGCGGCTGTTCCCACGTCTGCAATGACCTTAAGATCGGCTACGAGTGCCT   1102
+                     ||.||||||||||||.|||||||.|||||.|||||.||||..||||||||
+NM_010700.3     1172 GGTGGCTGTTCCCACATCTGCAAGGACCTCAAGATTGGCTCTGAGTGCCT   1221
+
+NM_000527.5     1103 GTGCCCCGACGGCTTCCAGCTGGTGGCCCAGCGAAGATGCGAAGATATCG   1152
+                     |||.|||..||||||||.|.||||||.||..|..||.||.||||||||.|
+NM_010700.3     1222 GTGTCCCAGCGGCTTCCGGTTGGTGGACCTCCACAGGTGTGAAGATATTG   1271
+
+NM_000527.5     1153 ATGAGTGTCAGGATCCCGACACCTGCAGCCAGCTCTGCGTGAACCTGGAG   1202
+                     |.|||||||||||.||.||||||||||||||||||||.|||||||||||.
+NM_010700.3     1272 ACGAGTGTCAGGAGCCAGACACCTGCAGCCAGCTCTGTGTGAACCTGGAA   1321
+
+NM_000527.5     1203 GGTGGCTACAAGTGCCAGTGTGAGGAAGGCTTCCAGCTGGACCCCCACAC   1252
+                     ||..||||||||||..||||..|||..||||||||..|||||||.|||||
+NM_010700.3     1322 GGCAGCTACAAGTGTGAGTGCCAGGCCGGCTTCCACATGGACCCACACAC   1371
+
+NM_000527.5     1253 GAAGGCCTGCAAGGCTGTGGGCTCCATCGCCTACCTCTTCTTCACCAACC   1302
+                     .|.||.|||||||||||||||||||||.|.|||.||..||||||||||||
+NM_010700.3     1372 CAGGGTCTGCAAGGCTGTGGGCTCCATAGGCTATCTGCTCTTCACCAACC   1421
+
+NM_000527.5     1303 GGCACGAGGTCAGGAAGATGACGCTGGACCGGAGCGAGTACACCAGCCTC   1352
+                     |.|||||||||.||||||||||.||||||||.||||||||||||||.||.
+NM_010700.3     1422 GCCACGAGGTCCGGAAGATGACCCTGGACCGCAGCGAGTACACCAGTCTG   1471
+
+NM_000527.5     1353 ATCCCCAACCTGAGGAACGTGGTCGCTCTGGACACGGAGGTGGCCAGCAA   1402
+                     .||||||||||||.|||.|||||.|||||.||||||||||||.|||.|||
+NM_010700.3     1472 CTCCCCAACCTGAAGAATGTGGTGGCTCTCGACACGGAGGTGACCAACAA   1521
+
+NM_000527.5     1403 TAGAATCTACTGGTCTGACCTGTCCCAGAGAATGATCTGCAGCACCCAGC   1452
+                     |||||||||||||||.|||||||||||.|.||.|||||.||||.|||.|.
+NM_010700.3     1522 TAGAATCTACTGGTCCGACCTGTCCCAAAAAAAGATCTACAGCGCCCTGA   1571
+
+NM_000527.5     1453 TTGA-CAGAGCCCACGGCGTCT--CT--TCCTATGACACCGTCATCAGCA   1497
+                     |.|| ||| ||||       ||  ||  |||||.||||||.||||||| .
+NM_010700.3     1572 TGGACCAG-GCCC-------CTAACTTGTCCTACGACACCATCATCAG-T   1612
+
+NM_000527.5     1498 GA-GACATCCAGGCCCCCGACGGGCTGGCTGTGGACTGGATCCACAGCAA   1546
+                     || |||.|.||.|||||.|||||||||||.||.||||||||||||.||||
+NM_010700.3     1613 GAGGACCTGCATGCCCCTGACGGGCTGGCGGTAGACTGGATCCACCGCAA   1662
+
+NM_000527.5     1547 CATCTACTGGACCGACTCTGTCCTGGGCACTGTCTCTGTTGCGGATACCA   1596
+                     ||||||||||||.||.||.||||..||||..||.|||||.||.||.||||
+NM_010700.3     1663 CATCTACTGGACAGATTCAGTCCCAGGCAGCGTATCTGTGGCTGACACCA   1712
+
+NM_000527.5     1597 AGGGCGTGAAGAGGAAAACGTTATTC----AGGGAGAACGGCTCCAAGCC   1642
+                     |||||||.|||||||..||..|.|||    |||.|    ||.||||..||
+NM_010700.3     1713 AGGGCGTAAAGAGGAGGACACTGTTCCAAGAGGCA----GGGTCCAGACC   1758
+
+NM_000527.5     1643 AAGGGCCATCGTGGTGGATCCTGTTCATGGCTTCATGTACTGGACTGACT   1692
+                     .||.||||||||.|||||.|||||.||||||||||||||||||||.||.|
+NM_010700.3     1759 CAGAGCCATCGTAGTGGACCCTGTGCATGGCTTCATGTACTGGACAGATT   1808
+
+NM_000527.5     1693 GGGGAACTCCCGCCAAGATCAAGAAAGGGGGCCTGAATGGTGTGGACATC   1742
+                     |||||||.|||||||||||||||||||||||..|||||||||||||||||
+NM_010700.3     1809 GGGGAACACCCGCCAAGATCAAGAAAGGGGGTTTGAATGGTGTGGACATC   1858
+
+NM_000527.5     1743 TACTCGCTGGTGACTGAAAACATTCAGTGGCCCAATGGCATCACCCTAGA   1792
+                     .||||.||||||||.||||||||.||||||||.|||||||||||.|||||
+NM_010700.3     1859 CACTCACTGGTGACCGAAAACATCCAGTGGCCAAATGGCATCACACTAGA   1908
+
+NM_000527.5     1793 TCTCCTCAGTGGCCGCCTCTACTGGGTTGACTCCAAACTTCACTCCATCT   1842
+                     |||...|||||||||.|||||.||||||||.||||||||.|||||.||||
+NM_010700.3     1909 TCTTTCCAGTGGCCGTCTCTATTGGGTTGATTCCAAACTCCACTCTATCT   1958
+
+NM_000527.5     1843 CAAGCATCGATGTCAACGGGGGCAACCGGAAGACCATCTTGGAGGATGAA   1892
+                     |.||||||||||||||.||||||||.|||||.|||||.|||||||||||.
+NM_010700.3     1959 CCAGCATCGATGTCAATGGGGGCAATCGGAAAACCATTTTGGAGGATGAG   2008
+
+NM_000527.5     1893 AAGAGGCTGGCCCACCCCTTCTCCTTGGCCGTCTTTGAGGACAAAGTATT   1942
+                     ||..||||||||||||||||||||||||||.|||.||||||||||||.|.
+NM_010700.3     2009 AACCGGCTGGCCCACCCCTTCTCCTTGGCCATCTATGAGGACAAAGTGTA   2058
+
+NM_000527.5     1943 TTGGACAGATATCATCAACGAAGCCATTTTCAGTGCCAACCGCCTCACAG   1992
+                     ||||||||||.||||.|||||||||||||||||||||||.||.|||||.|
+NM_010700.3     2059 TTGGACAGATGTCATAAACGAAGCCATTTTCAGTGCCAATCGACTCACGG   2108
+
+NM_000527.5     1993 GTTCCGATGTCAACTTGTTGGCTGAAAACCTACTGTCCCCAGAGGATATG   2042
+                     ||||.|||||.||.|||.|||||||||||||..|||||||.|||||.||.
+NM_010700.3     2109 GTTCAGATGTGAATTTGGTGGCTGAAAACCTCTTGTCCCCGGAGGACATT   2158
+
+NM_000527.5     2043 GTTCTCTTCCACAACCTCACCCAGCCAAGAGGAGTGAACTGGTGTGAGAG   2092
+                     ||.||.||||||||..||||.|||||.|||||.||||||||||||||||.
+NM_010700.3     2159 GTCCTGTTCCACAAGGTCACACAGCCTAGAGGGGTGAACTGGTGTGAGAC   2208
+
+NM_000527.5     2093 GA-------CCACCCTGAGCAATGGCGGCTGCCAGTATCTGTGCCTCCCT   2135
+                     .|       ||.|||    ||||||.||.||||||||.||||||||.||.
+NM_010700.3     2209 AACAGCCCTCCTCCC----CAATGGTGGTTGCCAGTACCTGTGCCTGCCC   2254
+
+NM_000527.5     2136 GCCCCGCAGATCAACCCCCACTCGCCCAAGTTTACCTGCGCCTGCCCGGA   2185
+                     |||||.||||||...||||||||||||||.||.||||||||||||||.||
+NM_010700.3     2255 GCCCCACAGATCGGTCCCCACTCGCCCAAATTCACCTGCGCCTGCCCTGA   2304
+
+NM_000527.5     2186 CGGCATGCTGCTGGCCAGGGACATGAGGAGCTGCCTCACAGAGGCTGAGG   2235
+                     .||||||||||||||||.|||||||.||||||||||||||||.|..||..
+NM_010700.3     2305 TGGCATGCTGCTGGCCAAGGACATGCGGAGCTGCCTCACAGAAGTCGACA   2354
+
+NM_000527.5     2236 CTGCAGTGGCCACCCAGGAGACATCCACCGTCAGGCTAAAGGTCAGCTCC   2285
+                     |||.|.||.|||||||||.|||||||.|||||.|||....|||||.|.|.
+NM_010700.3     2355 CTGTACTGACCACCCAGGGGACATCCGCCGTCCGGCCTGTGGTCACCGCA   2404
+
+NM_000527.5     2286 ACAGCCGTA--AGGACAC---AGCACACAACCACCCGACCTGT-----TC   2325
+                     .||||  ||  |||.|||   ||||||              ||     ||
+NM_010700.3     2405 TCAGC--TACCAGGCCACCGAAGCACA--------------GTGAGGATC   2438
+
+NM_000527.5     2326 CCGACACCTCCC----------GGCTGCCTGGGGCCACCCCTGGGCTCAC   2365
+                     .| .||.|||||          |||.|||||.||.||||||.|||||||.
+NM_010700.3     2439 TC-TCAGCTCCCAGTACTCCTAGGCAGCCTGTGGACACCCCAGGGCTCAG   2487
+
+NM_000527.5     2366 CACGGTGGAGATAGTGACAATGTCTCACCAAGCTCTGGGCGACGTTGCTG   2415
+                     |||.||||.|..|||||||.||||.|||||||..|.|||.|||.|.||||
+NM_010700.3     2488 CACAGTGGCGTCAGTGACAGTGTCCCACCAAGTCCAGGGTGACATGGCTG   2537
+
+NM_000527.5     2416 GCAGAGGAAATGAGAAGAAGCC-CA--GTAGCGTGAGGGCTCTGTCCATT   2462
+                     |||||||.||||||.||.|||| ||  |||   |||||...||||||||.
+NM_010700.3     2538 GCAGAGGGAATGAGGAGCAGCCACATGGTA---TGAGGTTCCTGTCCATC   2584
+
+NM_000527.5     2463 GTCCTCCCCATCGTGCTCCTCGTCTTCCTTTGCCTGGGGGTCTTCCTTCT   2512
+                     .||.||||.||.|..||..|.|.|.|||||..|||.||||.|.||||.||
+NM_010700.3     2585 TTCTTCCCTATTGCACTGGTTGCCCTCCTTGTCCTTGGGGCCGTCCTGCT   2634
+
+NM_000527.5     2513 ATGGAAGAACTGGCGGCTTAAGAACATCAACAGCATCAACTTTGACAACC   2562
+                     .||||.||||||||||||.|||||||||||||||||.|||||||||||||
+NM_010700.3     2635 GTGGAGGAACTGGCGGCTGAAGAACATCAACAGCATAAACTTTGACAACC   2684
+
+NM_000527.5     2563 CCGTCTATCAGAAGACCACAGAGGATGAGGTCCACATTTGCCACAACCAG   2612
+                     |.|||||.|||||||||||||||||.|||.||||||||||||..|.||||
+NM_010700.3     2685 CAGTCTACCAGAAGACCACAGAGGACGAGCTCCACATTTGCCGAAGCCAG   2734
+
+NM_000527.5     2613 GACGGCTACAGCTACCCCTCGAGACAGATGGTCAGTCTGGAGGATGACGT   2662
+                     ||.|||||.|.|||||||||.||||||||||||||.||||||||.||.||
+NM_010700.3     2735 GATGGCTATACCTACCCCTCAAGACAGATGGTCAGCCTGGAGGACGATGT   2784
+
+NM_000527.5     2663 GGCGTGAACATCTGCCTGGAGTCCCGTCCC--------------TGCC--   2696
+                     |||.|||.||   |||.||||..|||||.|              ||||  
+NM_010700.3     2785 GGCATGAGCA---GCCGGGAGAGCCGTCTCTTTCCGGGATCCATTGCCAA   2831
+
+NM_000527.5     2697 -------CAGAA--------------------CCC------------TTC   2707
+                            |||||                    |||            .||
+NM_010700.3     2832 GCTTAGGCAGAAAAGACACTCTCTCCAGACCTCCCCATCCAGCACTGGTC   2881
+
+NM_000527.5     2708 CTGAGACCTCGCCGGCCT-TGTTTTATTCAAAGACAGAGAAGACCAAAGC   2756
+                     |||..|||||.|.||.|| |||.||..||||||..|||.||||.||||||
+NM_010700.3     2882 CTGCCACCTCCCTGGGCTCTGTGTTGCTCAAAGCAAGATAAGAGCAAAGC   2931
+
+NM_000527.5     2757 AT---------------------TGCCTG------CCAGAGCTTTGTTTT   2779
+                      |                     ||||||      |||| |.|.||||||
+NM_010700.3     2932 -TGGGCTGGGGGCCAAGCTCAGCTGCCTGTCTGCCCCAG-GTTCTGTTTT   2979
+
+NM_000527.5     2780 ATATATTTATTCATCTGGGAGGCAGAACAGGCTTCGGACAGTGCCCATGC   2829
+                     ||||||||||| .|||||| |.|||||.|||||.|.|.|.|||  |.||.
+NM_010700.3     2980 ATATATTTATT-GTCTGGG-GACAGAAAAGGCTACTGGCTGTG--CTTGA   3025
+
+NM_000527.5     2830 AAT--------GGCTTGGGTTGGGATTTTGGTT---------TCTTCCTT   2862
+                     |||        .||.||    ||.|||||..||         |||||.||
+NM_010700.3     3026 AATTCGAATTCTGCCTG----GGAATTTTTTTTTTTCTCCCATCTTCATT   3071
+
+NM_000527.5     2863 TCCTCGTGAAGGATAAGAGAAACAGGCCCGGGGGGACCAGGATGACACCT   2912
+                     ||||.|       .|||..|||.|||                        
+NM_010700.3     3072 TCCTTG-------GAAGCCAAATAGG------------------------   3090
+
+NM_000527.5     2913 CCATTTCTCTCCAGGAAG-TTTTGAGTT----TCTCTCCACCGTGACACA   2957
+                           ||.|||..|||| ||.|||.||    |||.|.||     |||  
+NM_010700.3     3091 ------CTGTCCCAGAAGCTTCTGAATTCTACTCTTTTCA-----ACA--   3127
+
+NM_000527.5     2958 ATCCTCAAACATGGAAGATGAAAGGGGAGGGGATGT-------CAGGCCC   3000
+                          |.||||.|||.||.|||    |||              |||||..
+NM_010700.3     3128 -----CTAACACGGAGGAGGAA----GAG-------ACCCACCCAGGCAG   3161
+
+NM_000527.5     3001 AGAGAAGCAAG-TGGCTTTCAACACACA----ACAGCAGATGGCACCAAC   3045
+                     ||||||||..| |||          |||    |||||||.|...||..| 
+NM_010700.3     3162 AGAGAAGCCTGCTGG----------ACATGAGACAGCAGGTACTACTGA-   3200
+
+NM_000527.5     3046 GGGACCCCCTGGCCCTGCCTCATCCACCAATCTCTAAGCCAAACCCCTAA   3095
+                            ||.||.||||..|     ||||      .|||| |..||||||
+NM_010700.3     3201 -------CCGGGTCCTGGGT-----ACCA------TAGCC-AGTCCCTAA   3231
+
+NM_000527.5     3096 ACTCAGGAGTCAACGTGTTTACCTCTTCTATGCA---AGCCTTGCTAGAC   3142
+                     .|||||||                |||| .||||   | ||||      |
+NM_010700.3     3232 CCTCAGGA----------------CTTC-CTGCATTGA-CCTT------C   3257
+
+NM_000527.5     3143 A-GCCAGGTTAGCCTTTGCCCTGTCACCCCCGAATCATGACCCACCCAGT   3191
+                     | .||||   ||||||   ||||     ||.||.|| ||.|.|.||||  
+NM_010700.3     3258 ATCCCAG---AGCCTT---CCTG-----CCTGACTC-TGCCGCCCCCA--   3293
+
+NM_000527.5     3192 GTCTTTCGAGGTGGGTTTGTACCTTCCTTAAGCCAGGAAAGGGATTCATG   3241
+                      ||     ||                   ||||||||||||.||.||.||
+NM_010700.3     3294 -TC-----AG-------------------AAGCCAGGAAAGTGACTCGTG   3318
+
+NM_000527.5     3242 GC-GTCGGAAATGATCTGGCTGAATC-CGTGG-TGGCACC----------   3278
+                     .| .||||.|.||||||.||||.||| .|.|| .||||.|          
+NM_010700.3     3319 ACATTCGGTACTGATCTTGCTGGATCTTGAGGCCGGCAGCTGCCAGTGAT   3368
+
+NM_000527.5     3279 -GAGACCAAACTCA----TTCACCAAATGATGCCAC---TTCCCAGAGG-   3319
+                      ||.||| ..||||    ||..|||||  |.|.|||   ||||..|||| 
+NM_010700.3     3369 GGATACC-CGCTCATGCCTTTGCCAAA--ACGTCACCCGTTCCTGGAGGG   3415
+
+NM_000527.5     3320 -CAGAGCCTGAGTCACTGGTCACCCTTAATATTTATTAAGTGCCTGAGAC   3368
+                      || ||||..||||.|...||.||||||||||||||.|||||||||||||
+NM_010700.3     3416 ACA-AGCCCAAGTCGCCATTCTCCCTTAATATTTATCAAGTGCCTGAGAC   3464
+
+NM_000527.5     3369 ACCCGGTTACCTTGGCCGTGAGGACACGTGGCCTGC-------------A   3405
+                     |.|.||||.|||||   .|.||||..|.||||||||             .
+NM_010700.3     3465 AACTGGTTGCCTTG---CTCAGGAGTCCTGGCCTGCTCAGTGTCCTGCTG   3511
+
+NM_000527.5     3406 CCCAGGTGTGGCTGTCAGGACACCAG-CCTGGTGCCCATCCTCCCGA--C   3452
+                     |.||||.|||||.|.||||||.||.| ||| |||||||.|| |||||  |
+NM_010700.3     3512 CTCAGGGGTGGCCGGCAGGACCCCTGTCCT-GTGCCCAGCC-CCCGAGTC   3559
+
+NM_000527.5     3453 CCCTACCCA--CTTCCA-TTCCCGTGGTCTCCTTGCACTTTCTCAGTTCA   3499
+                     .||.|...|  |||.|| |||      ||||...|||||||..|.||||.
+NM_010700.3     3560 TCCGAGTGAGGCTTGCACTTC------TCTCTGCGCACTTTTCCCGTTCT   3603
+
+NM_000527.5     3500 GAGTTGTACAC-----TGTGTACATTTGGCATTTGTGTTATTATTTTGCA   3544
+                     |.|.||..|||     || ||.||     |||||||..|..||..|||||
+NM_010700.3     3604 GTGCTGGGCACCCACGTG-GTCCA-----CATTTGTACTCCTAGGTTGCA   3647
+
+NM_000527.5     3545 CTGTTTTCTGTCGTGTGTGTTGGGATGGGATCCCAGGCCAGGGAAAGCCC   3594
+                     ||| ...|||    |||..|| ||||||||.|.||||||  ||||     
+NM_010700.3     3648 CTG-ACCCTG----GTGCATT-GGATGGGACCTCAGGCC--GGAA-----   3684
+
+NM_000527.5     3595 GTGTCAATGAATGCCGGGGACAGAGAGGGGCAGGTTGACCGGGACTTCAA   3644
+                     |||.|...||||        ||            ||||||   ||     
+NM_010700.3     3685 GTGGCCCCGAAT--------CA------------TTGACC---AC-----   3706
+
+NM_000527.5     3645 AGCCGTGATCGTGAATATCGAGAACTGCCATTGTCGTCTTTATGTCCGCC   3694
+                                .|||    ||.||.|||||                    
+NM_010700.3     3707 -----------AGAA----GATAATTGCCA--------------------   3721
+
+NM_000527.5     3695 CACCTAGTGCTTCCACTTCTATGCAAATGCCTCCAAGCCATTCACTTCCC   3744
+                                                 |.||||||| |||.||.|.|| 
+NM_010700.3     3722 ----------------------------GGCTCCAAG-CATCCATTGCC-   3741
+
+NM_000527.5     3745 CAATCTTGTCGTTGATGGGTATGTGTTTAAAACATGCACGGTGAGGCCGG   3794
+                       .||||                                           
+NM_010700.3     3742 --TTCTT-------------------------------------------   3746
+
+NM_000527.5     3795 GCGCAGTGGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCCGAGGCGGG   3844
+                                              |||.|||               |||
+NM_010700.3     3747 -------------------------CAGTACT---------------GGG   3756
+
+NM_000527.5     3845 TGGATCATGAGGTCAGGAGATCGAGACCATCCTGGCTAACACGTGAAACC   3894
+                     .|||.|      |||||                                 
+NM_010700.3     3757 GGGAAC------TCAGG---------------------------------   3767
+
+NM_000527.5     3895 CCGTCTCTACTAAAAATACAAAAAATTAGCCGGGCGTGGTGGCGGGCACC   3944
+                       |.||||                         |..|||||         
+NM_010700.3     3768 --GCCTCT-------------------------GTCTGGTG---------   3781
+
+NM_000527.5     3945 TGTAGTCCCAGCTACTCGGGAGGCTGAGGCAGGAGAATG---GTGTGAAC   3991
+                     |.||||      ||.||.|...|.|            ||   ||.|    
+NM_010700.3     3782 TTTAGT------TAGTCTGTTTGTT------------TGTTTGTTT----   3809
+
+NM_000527.5     3992 CCGGGAAGCGGAGCTTGCAGTGAGCCGAGATTGCGCCACTGCAGTCCGCA   4041
+                                 |.|||             ||                 .
+NM_010700.3     3810 ------------GTTTG-------------TT-----------------T   3817
+
+NM_000527.5     4042 GTCTGGCCTGGGCGACAGAGCGAGACTCCGTCTCAAAAAAAAAAAACAAA   4091
+                     ||.|||  ||                   ||.||                
+NM_010700.3     3818 GTTTGG--TG-------------------GTTTC----------------   3830
+
+NM_000527.5     4092 AAAAAACCATGCATGGTGCATCAGCAGCCCATGGCCTCTGGCCAGGCATG   4141
+                                  |||                   |||||..||      
+NM_010700.3     3831 -------------TGG-------------------CTCTGCACA------   3842
+
+NM_000527.5     4142 GCGAGGCTGAGGTGGGAGGATGGTTTGAGCTCAGGCATTTGAGGCTGTCG   4191
+                          ||.|||.||          ||.|||||                  
+NM_010700.3     3843 -----GCAGAGTTG----------TTTAGCTC------------------   3859
+
+NM_000527.5     4192 TGAGCTATGATTATGCCACTGCTTTCCAGCCTGGGCAACATAGTAAGACC   4241
+                         ||.||.|.|.|.||      |||                       
+NM_010700.3     3860 ----CTCTGGTAACGTCA------TCC-----------------------   3876
+
+NM_000527.5     4242 CCATCTCTTAAAAAATGAATTTGGCCAGACACAGGTGCCTCACGCCTG-T   4290
+                        |||||.|               ||||.|||      ||..||||| |
+NM_010700.3     3877 ---TCTCTCA---------------CAGAGACA------TCCAGCCTGCT   3902
+
+NM_000527.5     4291 AATCCCAGCACTTTGGGAGGCTGAGCTGGATCACTTGAGTTCAGGAGTTG   4340
+                     .|    ||      ||||    |||.|||..|    |||   .||||  |
+NM_010700.3     3903 GA----AG------GGGA----GAGATGGGGC----GAG---GGGAG--G   3929
+
+NM_000527.5     4341 GAGACCAGGCCTGAGCAACAAAGCGAGATCCCATCTCTACAAAAACCAAA   4390
+                     ||.| ||.||.||             |.|    ||||             
+NM_010700.3     3930 GATA-CACGCATG-------------GTT----TCTC-------------   3948
+
+NM_000527.5     4391 AAGTTAAAAATCAGCTGGGTACGGTGGCACGTGCCTGTGATCCCA-GCTA   4439
+                                     .|||..||||||||.||.||.|.||||.| ||| 
+NM_010700.3     3949 ----------------AGGTGTGGTGGCACTTGGCTTTAATCCTATGCT-   3981
+
+NM_000527.5     4440 CTTGGGAGGCTGAGGCAGGAGGATCGCCTGAGCCCAGGAGGTGGAGGTTG   4489
+                                    ||.||||             |.|||||||     |
+NM_010700.3     3982 ---------------CAAGAGG-------------AAGAGGTGG-----G   3998
+
+NM_000527.5     4490 CAGTGAGCCATGATC-GAG--CCACTGCACTCCAGCCTGGGCAACAGA-T   4535
+                     ||      |||| || |||  |||         |||||     |||.| |
+NM_010700.3     3999 CA------CATG-TCTGAGGTCCA---------AGCCT-----ACATAGT   4027
+
+NM_000527.5     4536 GAAGACCCTATTTCAGAAATACAACTATAAAAAAATAAATAAATCCTCCA   4585
+                     | |||||.|||       |||    |.||||||...|||.|||||  |||
+NM_010700.3     4028 G-AGACCTTAT-------ATA----TCTAAAAACCAAAAGAAATC--CCA   4063
+
+NM_000527.5     4586 GTCTGGATCGTTTGACGGGACTTCAGG-----TTCTTTCTGAAATCGCCG   4630
+                     |.||     .||||..|||||||  ||     |.|||  .|||||.||| 
+NM_010700.3     4064 GACT-----ATTTGGTGGGACTT--GGAAGAATACTT--AGAAATTGCC-   4103
+
+NM_000527.5     4631 TGTTACTG--TTG-CACTGATG----TCCGGAG-AGACAGTGACAGCCTC   4672
+                         ||.|  ||| |||  |||    .||..|| ||||||||...||||.
+NM_010700.3     4104 ----ACAGATTTGTCAC--ATGGGTAACCTAAGAAGACAGTGGTGGCCTT   4147
+
+NM_000527.5     4673 CGTCAGACTCCCGCGTGAAGATGTCACAAGGGATTGGCAATTGTCC----   4718
+                     ..|..||.|||.|.||  ||||              .||..|||||    
+NM_010700.3     4148 ACTTGGATTCCTGGGT--AGAT--------------CCACCTGTCCACTA   4181
+
+NM_000527.5     4719 --CCAGGGACAA---AACACTGTGTCCCCCCCAGTGCA--GGGAACCGTG   4761
+                       |.||..||||   .||||||       |||||..||  ||||..|.||
+NM_010700.3     4182 CTCAAGACACAAGGGCACACTG-------CCCAGCCCACTGGGACACTTG   4224
+
+NM_000527.5     4762 ATAAGCCTTTCTGGTTTCGGAGCAC-GTAAATGCGTCCCTGTACAGATAG   4810
+                     ..||               ||||.| ||||         |||.|.|||.|
+NM_010700.3     4225 TAAA---------------GAGCTCTGTAA---------TGTGCCGATGG   4250
+
+NM_000527.5     4811 ----TGGGGATTTTTTGTTATGTTTGCACTTTGTATATTGGTTGAAACTG   4856
+                         ||          |.|..||||.||.|.|||||||            
+NM_010700.3     4251 CACCTG----------GCTCGGTTTTCATTCTGTATAT------------   4278
+
+NM_000527.5     4857 TTATCACTTATATATATATATATACACACATATATATAAAATCTATTTAT   4906
+                        |||...||||           |||||||||.|||.||||||||||||
+NM_010700.3     4279 ---TCAAGGATAT-----------CACACATATGTATTAAATCTATTTAT   4314
+
+NM_000527.5     4907 TTTTGCAAACCCTGGTTGCTGTA--TTTGTTCAGTGACTATTCTCGGGGC   4954
+                     ||||||||||||||.||||||.|  |.|.|.||.|     ||||      
+NM_010700.3     4315 TTTTGCAAACCCTGATTGCTGCACCTCTCTGCAAT-----TTCT------   4353
+
+NM_000527.5     4955 CCTGTGTAG---GGGGTTATTGCCTCTGAAATGCCTCTTCTTTATGTACA   5001
+                     ||.|..|||   |||||.||  .|||||..||||    |||.||  ||||
+NM_010700.3     4354 CCAGGTTAGGCTGGGGTGAT--ACTCTGGGATGC----TCTGTA--TACA   4395
+
+NM_000527.5     5002 AAGATTATTTGCACGAACT-------GGACTG---TGTGCAACGCTTTTT   5041
+                     |||||.|||||.|.|..||       ||.|||   |||||...||||   
+NM_010700.3     4396 AAGATGATTTGAATGGGCTGATCTCAGGCCTGTCCTGTGCGTTGCTT---   4442
+
+NM_000527.5     5042 GGGAGAATGATGTCCCCGTTGTATGTATGAGTGGCTTCTGGGAGATGGGT   5091
+                                                |||||||   .|||||       
+NM_010700.3     4443 ---------------------------TGAGTGG---GTGGGA-------   4455
+
+NM_000527.5     5092 GTCACT--TTTTAAACCACTGTATAGAAGGTTTTTGTAGCCTG--AATGT   5137
+                        |||  |||.|||||..|||..|| |.||||||.|||.|||  |||.|
+NM_010700.3     4456 ---ACTGCTTTGAAACCCTTGTTCAG-ATGTTTTTATAGGCTGAAAATAT   4501
+
+NM_000527.5     5138 CTTACTGTGATCAATTAAATTTCTT------AAATGAACCAA-------   5173
+                     |.|||||||||..|||||| |||||      |||..||..||       
+NM_010700.3     4502 CATACTGTGATGGATTAAA-TTCTTTTTTGGAAAAAAAAAAAAAAAAAA   4549
+
+
+#---------------------------------------
+#---------------------------------------
