@@ -1,0 +1,18 @@
+ # Nextflow
+work/
+.nextflow*
+.trace
+.timeline*
+.report*
+
+# Raw sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
+
+# Large alignment files
+*.sam
+*.bam
+*.bai
